@@ -8,20 +8,21 @@ Create Repository: Create a new repository named CryptoClustering for this proje
 Clone Repository: Clone the newly created repository to your local machine.
 Push Changes: Push your changes to GitHub.
 ##Files
-Download the following files to get started:
+Download the following files to get started: **Crypto_Clustering.ipynb
+                                             crypto_market_data.csv**
 
-Module 11 Challenge files (Links to an external site.)
-## Instructions
-Rename File: Rename the Crypto_Clustering_starter_code.ipynb file as Crypto_Clustering.ipynb.
-Load Data: Load the crypto_market_data.csv into a DataFrame and set the index to the "coin_id" column.
-Summary Statistics: Obtain summary statistics to understand the data.
-Prepare Data: Normalize the data using StandardScaler() from scikit-learn.
-Find Best Value for k: Utilize the elbow method to determine the best value for k.
-Cluster Cryptocurrencies with K-Means: Cluster cryptocurrencies using the original scaled data.
-Optimize Clusters with PCA: Perform PCA to reduce features and optimize clusters.
-Find Best Value for k Using PCA: Determine the best value for k using PCA data.
-Cluster Cryptocurrencies with K-Means Using PCA: Cluster cryptocurrencies using PCA data.
-Determine Weights of Each Feature on Each Principal Component: Identify feature weights on principal components.
+**Module 11 Challenge files** 
+1. **Rename File:** Rename the **Crypto_Clustering_starter_code.ipynb** file as **Crypto_Clustering.ipynb**.
+2. **Load Data:** Load the **crypto_market_data.csv** into a DataFrame and set the index to the "coin_id" column.
+3. **Summary Statistics:** Obtain summary statistics to understand the data.
+4. **Prepare Data:** Normalize the data using **StandardScaler()** from scikit-learn.
+5. **Find Best Value for k:** Utilize the elbow method to determine the best value for k.
+6. **Cluster Cryptocurrencies with K-Means:** Cluster cryptocurrencies using the original scaled data.
+7. **Optimize Clusters with PCA:** Perform PCA to reduce features and optimize clusters.
+8. **Find Best Value for k Using PCA:** Determine the best value for k using PCA data.
+9. **Cluster Cryptocurrencies with K-Means Using PCA:** Cluster cryptocurrencies using PCA data.
+10. **Determine Weights of Each Feature on Each Principal Component:** Identify feature weights on principal components.
+    
 # Summary
 Total Explained Variance: Calculate the total explained variance of the three principal components.
 Best Value for k: Determine the best value for k using both original data and PCA data.
